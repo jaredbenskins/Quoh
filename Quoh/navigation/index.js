@@ -1,5 +1,5 @@
 import React from "react";
-import {NavigationContainer, TabActions} from "@react-navigation/native"
+import {NavigationContainer} from "@react-navigation/native"
 import {createBottomTabNavigator} from "@react-navigation/bottom-tabs"
 
 import Map from "../screens/Map";
@@ -14,8 +14,8 @@ function App() {
         <NavigationContainer>
             <Tab.Navigator>
                 <Tab.Screen name = "Map" component = {Map}/>
-                <Tab.Screen name = "Events" component = {Events}/>
                 <Tab.Screen name = "Places" component = {Places}/>
+                <Tab.Screen name = "Events" component = {Events}/>
                 <Tab.Screen name = "Profile" component = {Profile}/>
             </Tab.Navigator>
         </NavigationContainer>
