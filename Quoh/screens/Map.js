@@ -52,6 +52,8 @@ export default class Map extends Component {
         );
     }
 
+
+    //tester
     renderMarkers() {
         return(
             <React.Fragment>
